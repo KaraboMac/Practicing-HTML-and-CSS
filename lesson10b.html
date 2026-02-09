@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10b</title>
+
+
+    <style>
+        .profile-pic{
+            width: 60px;
+            border-radius: 100px;
+        }
+
+        .Profile{
+            width: 80px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .block{
+            display: flex;
+            vertical-align: top;  
+            align-items: center;     
+        }
+
+        .Profile-description{
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 0px;
+            line-height: 10px;
+            width: 300px;
+        }
+
+        .follow-Button{
+            background-color: rgb(0, 128, 255);
+            border: none;
+            padding: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
+            border-radius: 8px;
+            color: white;
+            vertical-align: left;
+            font-weight: bold;
+            display: flex;
+        }
+
+        .follow-Button:hover{
+            cursor: pointer;
+            box-shadow: 2px 2px 5px grey;
+        }
+
+        .name{
+            font-family: Arial;
+            font-weight: bold;
+            vertical-align: middle;
+        }
+
+        .nickName, .fame{
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(170, 165, 165);
+            margin-left: 0px;
+            vertical-align: middle;
+            margin-top: 0;
+        }
+
+        .container{
+            display: block;
+            vertical-align: middle;  
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="block">
+            <div class="Profile">
+                <img class="profile-pic" src="profile3.jpeg" alt="">
+            </div>
+            <div class="Profile-description">
+                <p class="name">Oliver</p>
+                <p class="nickName">the cat</p>
+                <p class="fame">popular</p>
+            </div>          
+            <button class="follow-Button">Follow</button>
+        </div>
+
+
+        <div class="block">
+            <div class="Profile">
+                <img class="profile-pic" src="profile1.jpeg" alt="">
+            </div>
+            <div class="Profile-description">
+                <p class="name">Zulu</p>
+                <p class="nickName">the mageba</p>
+                <p class="fame">popular</p>
+            </div> 
+            <button class="follow-Button">Follow</button>                     
+        </div>
+
+        <div class="block">
+            <div class="Profile">
+                <img class="profile-pic" src="profile4.jpeg" alt="">
+            </div>
+            <div class="Profile-description">
+                <p class="name">Karabo</p>
+                <p class="nickName">the killer</p>
+                <p class="fame">known</p>
+            </div>          
+            <button class="follow-Button">Follow</button>           
+        </div>
+    </div>
+
+</body>
+</html>
